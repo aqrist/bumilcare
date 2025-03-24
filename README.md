@@ -1,109 +1,109 @@
-# Pregnancy Clinic Management System BUMIL Care
+# Sistem Manajemen Klinik Kehamilan BUMIL Care
 
-## Overview
-A comprehensive clinic management system specifically designed for pregnancy and maternal healthcare services. This system streamlines patient management, medical examinations, pharmacy operations, and payment processing.
+## Gambaran Umum
+Sistem manajemen klinik yang komprehensif dirancang khusus untuk layanan kesehatan kehamilan dan maternal. Sistem ini mengoptimalkan pengelolaan pasien, pemeriksaan medis, operasional farmasi, dan pemrosesan pembayaran.
 
-## Features
-- Patient Management
-- Queue System
-- Medical Examination
-- Prescription Management
-- Pharmacy Operations
-- Payment Processing
-- Pregnancy Records
+## Fitur
+- Manajemen Pasien
+- Sistem Antrian
+- Pemeriksaan Medis
+- Pengelolaan Resep
+- Operasional Farmasi
+- Pemrosesan Pembayaran
+- Catatan Kehamilan
 
-## User Roles
+## Peran Pengguna
 1. **Admin**
-   - Manage patients
-   - Manage queues
-   - Access all features
+   - Mengelola pasien
+   - Mengelola antrian
+   - Akses ke semua fitur
 
-2. **Doctor**
-   - Conduct examinations
-   - Create prescriptions
-   - View patient history
+2. **Dokter**
+   - Melakukan pemeriksaan
+   - Membuat resep
+   - Melihat riwayat pasien
 
-3. **Nurse**
-   - Register patients
-   - Manage queues
-   - Record basic patient information
+3. **Perawat**
+   - Mendaftarkan pasien
+   - Mengelola antrian
+   - Mencatat informasi dasar pasien
 
-4. **Pharmacist**
-   - Process prescriptions
-   - Manage medicine inventory
-   - Dispense medications
+4. **Apoteker**
+   - Memproses resep
+   - Mengelola inventaris obat
+   - Menyiapkan obat
 
-5. **Cashier**
-   - Process payments
-   - Generate invoices
-   - Manage payment records
+5. **Kasir**
+   - Memproses pembayaran
+   - Membuat faktur
+   - Mengelola catatan pembayaran
 
-## Application Flow
+## Alur Aplikasi
 
-### 1. Patient Registration
-- Register new patient
-- Create pregnancy record (if applicable)
-- Managed by admin/nurse
+### 1. Pendaftaran Pasien
+- Mendaftarkan pasien baru
+- Membuat catatan kehamilan (jika diperlukan)
+- Dikelola oleh admin/perawat
 
-### 2. Queue Management
-- Create patient queue
-- Assign doctor
-- Display queue status
-- Managed by admin/nurse
+### 2. Manajemen Antrian
+- Membuat antrian pasien
+- Menentukan dokter
+- Menampilkan status antrian
+- Dikelola oleh admin/perawat
 
-### 3. Medical Examination
-- Doctor examines patient
-- Record examination details
-- Create prescription if needed
-- View patient history
+### 3. Pemeriksaan Medis
+- Dokter memeriksa pasien
+- Mencatat detail pemeriksaan
+- Membuat resep jika diperlukan
+- Melihat riwayat pasien
 
-### 4. Pharmacy Process
-- View new prescriptions
-- Process and prepare medicines
-- Update prescription status
-- Manage medicine inventory
+### 4. Proses Farmasi
+- Melihat resep baru
+- Memproses dan menyiapkan obat
+- Memperbarui status resep
+- Mengelola inventaris obat
 
-### 5. Payment Processing
-#### Examination Payment
-- Create payment record
-- Process payment
-- Generate invoice
+### 5. Pemrosesan Pembayaran
+#### Pembayaran Pemeriksaan
+- Membuat catatan pembayaran
+- Memproses pembayaran
+- Membuat faktur
 
-#### Medicine Payment
-- Create prescription payment
-- Process payment
-- Generate invoice
+#### Pembayaran Obat
+- Membuat pembayaran resep
+- Memproses pembayaran
+- Membuat faktur
 
-### 6. Records & History
-- Patient medical history
-- Examination records
-- Payment history
-- Pregnancy progress records
+### 6. Catatan & Riwayat
+- Riwayat medis pasien
+- Catatan pemeriksaan
+- Riwayat pembayaran
+- Catatan perkembangan kehamilan
 
-## Payment Methods
-- Cash
-- Debit Card
-- Credit Card
-- Insurance
+## Metode Pembayaran
+- Tunai
+- Kartu Debit
+- Kartu Kredit
+- Asuransi
 
-## Document Generation
-- Examination reports
-- Prescriptions
-- Payment invoices
-- Medical history records
+## Pembuatan Dokumen
+- Laporan pemeriksaan
+- Resep obat
+- Faktur pembayaran
+- Catatan riwayat medis
 
-## Security
-- Role-based access control
-- Secure authentication
-- Protected patient data
-- Transaction logging
+## Keamanan
+- Kontrol akses berbasis peran
+- Autentikasi yang aman
+- Data pasien yang terlindungi
+- Pencatatan transaksi
 
-## Requirements
-- PHP 8.1+
-- Laravel 10.x
+## Persyaratan Sistem
+- PHP 8.2+
+- Laravel 12.x
 - MySQL 8.0+
 - Bootstrap 5.x
-- Modern web browser
+- Browser web modern
 
 ## Installation
 ```bash
@@ -132,4 +132,4 @@ php artisan serve
 [License Type]
 
 ## Support
-[Contact Information]
+mail to : aqrist@gmail.com
