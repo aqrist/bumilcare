@@ -101,7 +101,8 @@ class PrescriptionController extends Controller
             ]);
         }
 
-        return redirect()->route('prescriptions.pharmacy')
-            ->with('success', 'Resep telah selesai diproses.');
+        // Redirect to payment creation with correct route name
+        return redirect()->route('payments.create.prescription', $prescription)
+            ->with('success', 'Resep telah selesai diproses. Silahkan lakukan pembayaran.');
     }
 }

@@ -5,7 +5,7 @@
         <h2 class="mb-4"><i class="bi bi-speedometer2"></i> Dashboard</h2>
 
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-12">
                 <div class="card stat-card">
                     <div class="card-body">
                         <div class="d-flex align-items-center">
@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 col-12">
                 <div class="card stat-card">
                     <div class="card-body">
                         <div class="d-flex align-items-center">
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 col-12">
                 <div class="card stat-card">
                     <div class="card-body">
                         <div class="d-flex align-items-center">
@@ -53,7 +53,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 col-12">
                 <div class="card stat-card">
                     <div class="card-body">
                         <div class="d-flex align-items-center">
